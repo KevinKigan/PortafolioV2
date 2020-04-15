@@ -2,48 +2,39 @@ header {
   background-color: pink;
 }
 img {
-  border: 2px solid #ddd;
   float:left;
   left: 20px;
   width: 100px;
 }
 
-div {
-  border: black 3px solid;
-}
-
 .logo {
-  border: black 3px solid;
   padding-left: 20px;
 }
+
 .aligned{
   vertical-align: top;
-
   display: inline-block;
 }
+
 .menu{
   padding: 20px 20px 20px 20px;
 }
 
-
-.left {
-  float: left;
-  border: 3px solid #73AD21;
-}
 
 .contenedor
 {
   width:550px;
   height:100px;
   line-height:100px;
-  border:1px solid;
   text-align:center;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
 
 }
+
 .grid-container > div {
   text-align: center;
 }
